@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>About Us | Skyline Online</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="scripts.js"></script>
+    <body>
+
+        <div id="not-main">
+            <div id="navbar">
+                <a href="index.html"><img src="https://pbs.twimg.com/media/E4bXNUXXoAcQkau?format=jpg&name=120x120"></a>
+                <button type="button" id="navbar-toggle">≡</a>
+            </div>
+            <ul id="menu">
+                <a href="index.html"><li>Home</li></a>
+                <a href="aboutUs.html"><li>About</li></a>
+                <a href="about:blank"><li>Operations</li></a>
+                <a href="about:blank"><li>Services</li></a>
+                <a href="about:blank"><li>Contact Us</li></a>
+            </ul>
+        </div>
+
+        <div id="main">
+            <div class="cont-heading">
+		        <h1>Have a question? Connect with us! </h1>
+	        </div>
+	
+            <div class = "formContainer">
+                
+                <form action="https://formsubmit.co/info.skylineonline@gmail.com" method="POST">
+                    
+                    </br>
+                    <input type = "text" name = "Name" placeholder = "Full Name">
+                    
+                    </br>
+                    <input type = "email" name = "Email address: " placeholder = "E-mail">
+                    
+                    </br>
+                
+                    <select id = "service" name = "Service">
+                        <option value = "" disabled selected hidden> What type of service would you like to ask about? </option>
+                        <option value = "Marketing"> Marketing </option>
+                        <option value = "Consulting"> Consulting </option>
+                        <option value = "Web Design"> Web Design </option>
+                        <option value = "Search Engine Optimization"> Search Engine Optimization </option>
+                        <option value = "E-Commerce"> E-Commerce </option>
+                        <option value = "Social Media Management"> Social Media Management </option>
+                        <option value = "Sales"> Sales </option>
+                    </select>
+                    
+                    </br>
+                    <textarea id = "subject" name = "Subject" 
+                        placeholder = "Type here..."></textarea>
+                    
+                    </br>
+                    
+                    <button class = "submitButton" action = "submit"> Submit </button>
+                    
+                </form>
+            </div>
+            <footer>
+                <p style = "font-weight: bold; font-size: 60px;">
+                    Skyline Online 
+                </p>
+            
+                <a href = "mailto:info.skylineonline@gmail.com" style = "font-family: Arial; text-decoration: none; color: #000000"> info.skylineonline@gmail.com </a>
+                </br></br>
+                <a href = "tel:+27 65 896 9349" style = "font-family: Arial; text-decoration: none; color: #000000"> +27 65 896 9349 </a>
+            
+                <p> South Africa </p>
+                
+                <a href = "https://www.instagram.com/skyline.onliine/?hl=en" target = "_blank" style = "font-size: 30px; color: #000000">
+                    <i class = "fa fa-instagram"></i>
+                </a>
+            </footer>
+        </div>
+    </body>
+</html>

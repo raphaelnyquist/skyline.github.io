@@ -1,0 +1,196 @@
+html, body {
+    max-width: 100%;
+    min-width: 480px;
+    overflow-x: hidden;
+    margin:0;
+    padding:0;
+}
+
+body {
+    font-family: "Titillium Web", "Open Sans", sans-serif;
+}
+
+#navbar {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    height: 150px;
+    z-index: 1;
+}
+
+#navbar img {
+    height: 100%;
+}
+
+#main {
+    margin-top: 150px;
+}
+
+#company-banner {
+    color: white;
+    text-align: center;
+    margin: auto;
+    background-image: url('https://pbs.twimg.com/media/E4WEH-eWYAICWF8?format=jpg&name=large');
+    background-color: rgba(255, 255, 255, 0.5);
+    background-size: 100%;
+    padding: 100px;
+}
+
+#company-banner h1 {
+    font-size: 100px;
+}
+
+#company-banner p {
+    font-size: 40px;
+}
+
+#about-banner {
+    color: white;
+    text-align: center;
+    margin: auto;
+    background-image: url('https://pbs.twimg.com/media/E4bbh0AXEAMO51E?format=jpg&name=small');
+    background-color: rgba(255, 255, 255, 0.5);
+    background-size: 100%;
+    padding: 100px;
+}
+
+#about-banner h1 {
+    font-size: 100px;
+}
+
+#about-banner p {
+    font-size: 40px;
+}
+
+.service {
+    text-align: left;
+    background-color: #fff;
+    width: 100%;
+    border-radius: 1px;
+    box-shadow: 0px 2px 10px black;
+    margin-bottom: 40px;
+}
+
+.service span {
+    font-weight: bold;
+}
+
+.service .service-info {
+    padding: 30px;
+    font-size: 25px;
+}
+
+footer {
+    border-top: 3px solid lightgray;
+    background-color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.service-header {
+    height: 130px;
+    background-color: #fff;
+    padding: 30px;
+    text-align: left;
+}
+
+.service-header img {
+    border-radius: 100%;
+    border: 3px solid lightgray;
+    height: 130px;
+    width: 130px;
+}
+
+.header-name {
+    position: relative;
+    font-weight: bold;
+    top: -75%;
+    left: 150px;
+    font-size: 50px;
+}
+
+#menu {
+    display: none;
+    margin: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 150px;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+#navbar-toggle {
+    float: right;
+    height: 100%;
+    width: 150px;
+    background-color: rgba(255, 255, 255, 0);
+    font-size: 100px;
+    text-align: center;
+    border: none;
+}
+
+#navbar-toggle:active {
+    color: #666;
+}
+
+#menu {
+    list-style-type: none;
+    padding: 0;
+}
+
+#menu li {
+    text-align: left;
+    margin-left: 400px;
+    padding: 50px;
+    border-bottom: 3px solid lightgray;
+    background-color: #fff;
+}
+
+#menu li:active {
+    background-color: #ccc;
+}
+
+#menu a {
+    text-decoration: none;
+}
+
+#menu a li {
+    text-decoration: none;
+    color: black;
+    font-size: 60px;
+}
+
+#main p, #main h2, .pageHeading {
+    text-align: center;
+    margin: 50px;
+}
+
+.cont-heading {
+    text-align: center;
+    font-size: 30px;
+}
+
+form {
+    text-align: center;
+    margin: auto;
+}
+
+input, select, textarea {
+    padding: 30px;
+    width: 100%;
+    margin: auto;
+    border: 2px solid #ccc;
+    font-size: 25px;
+    margin: 20px auto;
+}
+
+.submitButton {
+    width: 50%;
+    text-align: center;
+    font-size: 25px;
+    padding: 30px;
+}
